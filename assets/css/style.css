@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----------------------------------------------------------
+---------------CONTENT STYLE-----*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: normal;
+}
+
+
+
+.Cartera,
+.InfoInicio {
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.5s;
+}
+
+.Cartera h1,
+h3,
+.InfoInicio h1,
+.InfoInicio h3 {
+    color: #1065E1;
+
+}
+
+.HeaderCartera .Titulo {
+    margin: auto;
+    padding: 30px;
+}
+
+.Cartera h3,
+.description-content h4 {
+    padding: 50px 0px;
+}
+
+.btnconsulta {
+    background-color: #168BE8 !important;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    padding: 0px;
+    font-size: 1.0em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.btnconsulta:hover {
+    background-color: #0D52B8 !important;
+
+}
+
+.imgBtn {
+    max-width: 30%;
+}
+
+.description-content .descriptionInfo {
+    background-color: #F1F1F2;
+    border-radius: 10px;
+    display: block;
+    margin: 20px;
+
+
+}
+
+.colBtn {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionInfo {
+    padding: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.descriptionInfo h5,
+.descriptionInfo p {
+    margin: 10px;
+}
+
+.descriptionInfo p {
+    text-align: left;
+}
+
+/*.descriptionInfo:hover{
+    transform:  scale(1.2);
+}*/
+
+.HeaderCartera {
+    position: relative;
+    background-color: #F2F2F2;
+    border-radius: 10px 80px 80px 10px;
+}
+
+.HeaderProductos {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.HeaderProductos .img-header {
+    width: 60%;
+    bottom: 0px;
+    right: 50px;
+}
+
+.linkHome {
+    text-decoration: underline;
+}
+
+.img-headerHome {
+    width: 25%;
+    bottom: 0px;
+    right: 50px;
+}
+
+.img-headerUsuario {
+
+    height: 110%;
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+
+}
+
+.cesantias .imgcesantias {
+    display: block;
+    width: 80px;
+}
+
+/*************************************---------------------------------HOME--------------------****************/
+
+.HeaderCartera-Home {
+    position: relative;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    /*margin: auto;*/
+    background-color: #F2F2F2;
+    max-width: 90%;
+}
+
+.HeaderCartera-Home div {
+    margin: auto;
+}
+
+.HeaderCartera-Home .img-header {
+    max-width: 60%;
+
+    bottom: 0px;
+
+}
+
+.middleText {
+    margin: auto;
+    padding: 20px;
+}
+
+#BienvenidoUser {
+    color: #1065E1;
+}
+
+#nombreUser {
+    color: #000;
+    font-weight: bold;
+}
+
+.btnIngresar {
+    border-radius: 10px;
+    width: 200px;
+    background-color: #168BE9;
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.TituloHome {
+    padding: 20px 30px;
+}
+
+.TituloHome h5,
+.TituloHome h2 {
+    margin: 10px;
+}
+
+.TituloHome h5 {
+    color: #1065E1;
+
+}
+
+.imgContainer img {
+    margin: auto;
+    text-align: center;
+    width: 80% !important;
+    transition: transform .4s;
+}
+
+.imgContainer:hover img {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+.logoProducts {
+    width: 80%;
+}
+
+
+.recibo,
+.reciboSmall {
+    background-color: #1065E1;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.recibo h3,
+.reciboSmall h3 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.recibo .reciboTexto {
+    padding: 30px;
+
+}
+
+.recibo .btnRecibo,
+.reciboSmall .btn {
+    font-family: "Lato";
+    border-radius: 10px;
+    margin: 30px 0 0px;
+    font-weight: 600;
+
+    background-color: #168BE9;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recibo img {
+    width: 80%;
+    position: absolute;
+}
+
+.reciboSmall img {
+    width: 100%;
+}
+.my-slider div{
+    height: 200%;
+    margin-top: 10px;
+}
+
+.opts {
+    height: 250px;
+}
+
+.optList li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.optimg-headerUsuario {
+    height: 100%;
+    position: absolute;
+    right: -150px;
+    bottom: 60px;
+}
+.optsScroll{
+    padding: 20px 0 0;
+    height: 300px;
+    width: 540px;
+    overflow-x:hidden;
+}
+
+.optsScroll a span{
+    text-decoration: none;
+    color: #000;
+    line-height: 20px;
+}
+
+
+.logoOpt {
+    transform: rotate(-45deg);
+}
+
+
+.optActive {
+    background-color: #168BE9 !important;
+}
+
+.optContainer span {
+    margin: 5px 30px;
+    left: 50px;
+    position: absolute;
+    -moz-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+
+}
+
+.optActive image {
+    filter: brightness(100%)
+}
+
+.optContainer {
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+
+    position: relative;
+
+}
+
+
+
+.Lateralmenu {
+    right: 0;
+    top: 250px;
+    border-radius: 20px 0 0 20px;
+    z-index: 100;
+    /*margin: 50px;*/
+    /*padding: 30px*/
+}
+
+.Lateralmenu a {
+    text-decoration: none;
+}
+
+.Lateralmenu .LateralMenuBtn {
+    color: #000;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+
+.Lateralmenu p {
+    margin: 20px 0px;
+    font-size: .6em;
+}
+
+.Lateralmenu img {
+    max-width: 30px;
+}
+
+.menuBottom {
+    border-radius: 10px 10px 0 0;
+    background-color: #F1F1F2;
+}
+
+.menuBottom a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menuBottom img {
+    width: 60%;
+}
+
+#btn1 {
+    border-radius: 20px 0 0;
+}
+
+#btn3 {
+    border-radius: 0 0 0 20px;
+}
+
+.pregunta {
+    color: #1065E1;
+}
+
+/*-----------------------------//botones flotantes//---------------------*/
+
+
+/*__________________________________RESPONSIVE____________________________________________*/
+@media(max-width:1024px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .description-content .descriptionInfo {
+        margin: 10px;
+    }
+
+    .btnconsulta {
+        width: 80px;
+    }
+
+    .HeaderProductos .img-header {
+        width: 80%;
+    }
+
+    .divimage {
+        margin: auto;
+    }
+
+    .recibo .btnRecibo,
+    .reciboSmall .btn {
+        margin: 0;
+    }
+
+    .img-headerHome {
+        width: 50%;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .linkHome {
+        white-space: nowrap;
+    }
+    
+
+    .optimg-headerUsuario {
+        height: 80%;
+        position: absolute;
+        right: -151px;
+        bottom: 115px;
+    }
+    .optsScroll{
+        padding: 20px 0 0;
+        height: 350px;
+        width: 540px;
+        overflow-x: auto;
+        
+    }
+   
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    .middleText h5 {
+        font-size: 0.7em;
+    }
+
+    .middleText {
+        padding: 20px 0 0;
+    }
+
+    .linkHome {
+        display: none;
+    }
+
+    .img-headerUsuario {
+        height: 100%;
+        position: absolute;
+        right: -5px;
+        bottom: -5px;
+    }
+
+    .logo-cesantias {
+        width: 100%;
+    }
+
+     .opts {
+        max-width: 100%;
+        border-radius: 10px 10px 10px 10px;
+        min-height: 100px
+    }
+
+    .TituloHome {
+        padding: 10px;
+    }
+
+    .Cartera,
+    .InfoInicio {
+        padding: 20px;
+    }
+
+    .Usuario .HeaderCartera .Titulo {
+        padding: 20px;
+    }
+
+    .HeaderCartera .Titulo {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .btnIngresar {
+        border-radius: 10px;
+        width: 100px;
+        background-color: #168BE9;
+        color: #fff;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .Cartera h3,
+    .description-content h4 {
+        padding: 30px 10px 0;
+        text-align: center;
+    }
+
+    .btnconsulta {
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .gridContent {
+        margin-top: 0 !important;
+    }
+
+    .HeaderCartera .img-header,
+    .HeaderProductos .img-header {
+        right: 10px;
+        width: 100%;
+    }
+
+    .description-content .descriptionInfo {
+        margin: 20px 0 !important;
+    }
+    .optimg-headerUsuario {
+        height: 80%;
+        position: absolute;
+        right: -117px;
+        bottom: 85px;
+        display: none;
+    }
+
+
+
+}
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    right: 10px;
+    left: auto;
+    width: auto;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.carousel-indicators li {
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid#168BE9;
+
+}
+
+.carousel-indicators li.active {
+    margin-bottom: 5px;
+    background: #168BE9;
+
+}
